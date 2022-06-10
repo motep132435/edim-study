@@ -1,0 +1,40 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.box01 {
+  background: red;
+  /* margin-top: 100px; */
+  position: relative;
+  margin: 0 auto; 
+}
+
+.box02 {
+  background: orange;
+}
+
+.wrap {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background: hotpink;
+}
+
+.wrap .list01 {
+  position: absolute;
+  background: dodgerblue;
+  top: 50%;
+  left: 50%;  
+
+}
+
+.box03 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  background: black;
+}

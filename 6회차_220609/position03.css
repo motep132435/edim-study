@@ -1,0 +1,50 @@
+body {
+  position: relative;
+}
+
+.white {
+  height: 2000px;
+}
+
+.green {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  margin: -225px 0 0 -330px;
+  width: 660px;
+  height: 450px;
+  background: green;
+  color: #fff;
+}
+
+.green > div {
+  background: #000;
+}
+
+.green .box01 {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+.green .box02 {
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 120px;
+  height: 120px;
+}
+.green .box03 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+}
+
+.gray {
+  height: 2000px;
+  background: gray;
+}
+

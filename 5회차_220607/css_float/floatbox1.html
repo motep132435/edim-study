@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>float</title>
+  <link rel="stylesheet" href="./reset.css" />
+  <style>
+    .box_top {
+      width: 700px;
+      background: pink;
+    }
+    .box_child {
+      width: 200px;
+      height: 200px;
+    }
+    .box_child_1 {
+      background: red;
+      float: left;
+    }
+    .box_child_2 {
+      background: orange;
+      float: left;
+    }
+    .box_child_3 {
+      background: yellow;
+      float: left;
+    }
+    .box_bottom {
+      width: 800px;
+      height: 300px;
+      background: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="box_top clearfix">
+    <div class="box_child box_child_1"></div>
+    <div class="box_child box_child_2"></div>
+    <div class="box_child box_child_3"></div>
+  </div>
+  <div class="box_bottom"></div>
+
+</body>
+</html>
